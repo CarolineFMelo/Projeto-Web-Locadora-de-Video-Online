@@ -1,0 +1,35 @@
+/* Variables Colors */
+:root {
+  --base-color: #0d0d0f;
+  --font-color: ;
+  --principal-color: #6441a5;
+  --dark-principal-color: #301a59;
+  --light-principal-color: #c1a7f2;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  height: 100vh;
+}
+body {
+  height: 100%;
+  width: 100vw;
+  background-image: url(../img/fundo-login.jpg);
+  /* background-color: var(--principal-color); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+body .login {
+  height: 350px;
+  width: 400px;
+  margin-left: 80px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.12) 100%);
+  backdrop-filter: blur(4px);
+  border-radius: 8px;
+  padding: 38px;
+}
