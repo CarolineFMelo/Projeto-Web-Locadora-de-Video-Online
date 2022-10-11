@@ -14,22 +14,56 @@ html {
   height: 100vh;
 }
 body {
-  height: 100%;
   width: 100vw;
-  background-image: url(../img/fundo-login.jpg);
-  /* background-color: var(--principal-color); */
-  background-repeat: no-repeat;
-  background-size: cover;
+  height: 100vh;
+  background-color: var(--base-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  width: 70vw;
+  height: 500px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   display: flex;
   align-items: center;
 }
-
-body .login {
-  height: 350px;
-  width: 400px;
-  margin-left: 80px;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.12) 100%);
-  backdrop-filter: blur(4px);
-  border-radius: 8px;
-  padding: 38px;
+main .imgBanner {
+  width: 38vw;
+  height: 100%;
+  background-image: url(../img/fundo-login.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -200px 0px;
+  border-radius: 8px 0px 0px 8px;
+}
+main .login {
+  width: 32vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0px 8px 8px 0px;
+}
+main .login img {
+  width: 15vw;
+  margin-bottom: 10vh;
+}
+main .login form {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  flex-direction: column;
+}
+main .login form .buttons button {
+  width: 6vw;
+  height: 5vh;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background-color: var(--principal-color);
+  margin-top: 10vh;
 }
