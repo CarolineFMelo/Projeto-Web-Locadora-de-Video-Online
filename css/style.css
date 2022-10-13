@@ -30,7 +30,8 @@ main {
   display: flex;
   align-items: center;
 }
-main .imgBanner {
+
+.imgBanner {
   width: 38vw;
   height: 100%;
   background-image: url(../img/fundo-login.gif);
@@ -39,25 +40,23 @@ main .imgBanner {
   background-position: -200px 0px;
   border-radius: 8px 0px 0px 8px;
 }
-main .login {
+.login {
   width: 32vw;
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   border-radius: 0px 8px 8px 0px;
 }
-main .login img {
+.login img {
   width: 15vw;
-  margin-top: 130px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
-
 .loginRows {
   position: relative;
   margin: 8px 0;
 }
-
 .loginRows i {
   position: absolute;
   display: flex;
@@ -77,4 +76,27 @@ main .login img {
   outline: none;
   border-radius: 7px;
   border: 1px var(--light-principal-color) solid;
+}
+
+.buttons {
+  width: 60%;
+  height: 28px;
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn {
+  width: 48%;
+  height: 100%;
+  border-radius: 7px;
+  outline: none;
+  border: none;
+  color: white;
+  background-color: var(--dark-principal-color);
+  cursor: pointer;
+  transition: 0.2s;
+}
+.btn:hover {
+  transform: scale(1.02);
 }
