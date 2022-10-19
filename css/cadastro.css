@@ -1,0 +1,98 @@
+@import url(reset.css);
+/* 
+============================================== 
+            + Settings
+============================================== 
+*/
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttons {
+  width: 100%;
+  height: 28px;
+  justify-content: space-between;
+}
+.btnA,
+.btnButton {
+  width: 23%;
+}
+.inputStyle {
+}
+/* 
+============================================== 
+            Page Settings
+============================================== 
+*/
+.content {
+  /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px red; */
+}
+
+form {
+  /* width: 600px; */
+  /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+hr {
+  /* width: 100%;
+    margin: 2vh 0; */
+  /* margin-top: 1vw;
+    margin-bottom: 1.5vw;
+    border-color: var(--light-principal-color); */
+}
+
+body h1 {
+  color: var(--principal-color);
+}
+
+.radio {
+  padding-top: 0.5vw;
+  color: var(--font-color);
+}
+
+.radio label {
+  margin-right: 1vw;
+}
+
+.radio input {
+  margin-right: 0.4vw;
+}
+
+.checkbox {
+  color: var(--font-color);
+  padding-top: 1.3vw;
+}
+
+.checkbox input {
+  margin-right: 1vw;
+  margin-top: 0.3vw;
+}
+
+.link {
+  display: grid;
+  margin-left: 12vw;
+  padding-top: 1vw;
+}
+
+.link a {
+  text-decoration: none;
+  color: var(--principal-color);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.link a:hover {
+  color: var(--font-color);
+  transform: scale(1.02);
+}
+.loginRows select {
+  height: 30px;
+  width: 20vw;
+  border-radius: 7px;
+}

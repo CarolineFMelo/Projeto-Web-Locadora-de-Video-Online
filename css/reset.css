@@ -1,0 +1,86 @@
+/* 
+============================================== 
+                Reset
+============================================== 
+*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  height: 100vh;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--base-color);
+}
+/* 
+============================================== 
+                Colors
+============================================== 
+*/
+:root {
+  --base-color: #0d0d0f;
+  --font-color: #f7fff2;
+  --principal-color: #6441a5;
+  --dark-principal-color: #301a59;
+  --light-principal-color: #c1a7f2;
+}
+/* 
+============================================== 
+                Text
+============================================== 
+*/
+.primaryTextColor {
+  color: var(--font-color);
+}
+.secondaryTextColor {
+  color: black;
+}
+/* 
+============================================== 
+                btns
+============================================== 
+*/
+.buttons {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.btnA {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  color: var(--font-color);
+  text-decoration: none;
+  background-color: var(--dark-principal-color);
+  cursor: pointer;
+  transition: 0.2s;
+}
+.btnButton {
+  height: 100%;
+  border-radius: 7px;
+  outline: none;
+  border: none;
+  color: var(--font-color);
+  background-color: var(--dark-principal-color);
+  cursor: pointer;
+  transition: 0.2s;
+}
+.btnA:hover,
+.btnButton:hover {
+  transform: scale(1.02);
+}
+/* 
+============================================== 
+                inputs
+============================================== 
+*/
+.inputStyle {
+  outline: none;
+  border-radius: 7px;
+  border: 1px var(--light-principal-color) solid;
+}
