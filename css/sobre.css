@@ -1,0 +1,54 @@
+@import url(layout.css);
+
+.sobre {
+    width: 100%;
+    height: 98%;
+    margin: 20px 20px 0 0;
+    color: var(--font-color);
+}
+
+.people {
+    display: flex;
+    justify-content: center;
+    margin-top: 3vw;
+}
+
+.info {
+    width: 30vw;
+    height: 30vw;
+    display: grid;
+}
+
+.sobre h2{
+    color: var(--light-principal-color);
+    text-decoration: overline;
+    text-align: center;
+}
+
+.info img {
+    width: 140px;
+    height: 180px;
+    border: double var(--dark-principal-color);
+    box-shadow: 1px 1px 160px var(--dark-principal-color);
+    margin: auto;
+    display: block;
+    border-radius: 7px;
+}
+
+.info ul {
+    margin:auto;
+    list-style: none;
+}
+
+.info ul span {
+    color: var(--light-principal-color);
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1vw;
+}
+
+.info ul i{
+    color: var(--principal-color);
+    margin-right: .5vw;
+}
