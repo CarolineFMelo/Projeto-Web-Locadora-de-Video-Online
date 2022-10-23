@@ -1,0 +1,36 @@
+@import url(layout.css);
+
+.filmes {
+    color: var(--font-color);
+    border: none;
+}
+
+.filmes h2 {
+    color: var(--light-principal-color);
+    text-decoration: overline;
+    text-align: center;
+}
+
+.itens {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 1px;
+    margin-top: 2vw;
+}
+
+.info {
+    height: 18vw;
+    width: 14vw;
+    display: grid;
+    text-align: center;
+    font-size: small;
+    margin-bottom: .3vw;
+}
+
+.info img {
+    width: 11vw;
+    height: 15vw;
+    display: block;
+    margin: auto;
+}
+
