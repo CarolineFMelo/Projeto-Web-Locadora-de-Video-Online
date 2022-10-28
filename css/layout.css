@@ -50,12 +50,38 @@
 .active a {
   color: var(--light-principal-color);
 }
-
-.filmes {
-  width: 100%;
+.layoutPrincipal .conteudo .filmes {
+  width: calc(100% - 440px);
   height: 98%;
   margin: 20px 20px 0 0;
-  border: solid 1px red;
+  /* border: solid 1px red; */
+}
+.sobreFilme {
+  width: 100%;
+  height: 100%;
+  /* border: solid 1px red; */
+  display: flex;
+}
+.sobreFilme img {
+  width: 35%;
+}
+.sobreFilme .resumo {
+  /* border: solid 1px yellow; */
+  height: 100%;
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  color: white;
+}
+.sobreFilme p {
+  text-align: justify;
+  margin-bottom: 20px;
+}
+.sobreFilme iframe {
+  margin-bottom: 20px;
 }
 footer {
   margin: 20px;
