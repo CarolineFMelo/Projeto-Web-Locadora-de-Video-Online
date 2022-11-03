@@ -50,7 +50,8 @@
 .active a {
   color: var(--light-principal-color);
 }
-.layoutPrincipal .conteudo .filmes {
+.layoutPrincipal .conteudo .filmes,
+.layoutPrincipal .conteudo .contato {
   width: calc(100% - 440px);
   height: 98%;
   margin: 20px 20px 0 0;

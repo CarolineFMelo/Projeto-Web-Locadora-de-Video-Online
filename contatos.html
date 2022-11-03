@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/contato.css" />
     <link rel="stylesheet" href="fontawesome/css/all.min.css" />
     <title>NetFilms</title>
   </head>
@@ -41,7 +41,31 @@
             </ul>
           </nav>
         </div>
-        <main class="filmes"></main>
+        <main class="contato">
+          <h2>Contato</h2>
+          <form>
+            <div class="divInputs">
+              <label for="name">Nome:</label>
+              <input type="text" class="inputStyle" name="name" id="name" />
+            </div>
+            <div class="divInputs">
+              <label for="email">E-mail:</label>
+              <input type="email" class="inputStyle" name="email" id="email" />
+            </div>
+            <div class="divInputs">
+              <label for="assunto">Assunto:</label>
+              <input type="text" class="inputStyle" name="assunto" id="assunto" />
+            </div>
+            <div class="divInputs">
+              <label for="msg">Mensagem:</label>
+              <textarea name="msg" class="textareaStyle" id="msg" cols="30" rows="10"></textarea>
+            </div>
+            <div class="buttons">
+              <button type="submit" class="btnButton">Enviar</button>
+              <button type="reset" class="btnButton">Limpar</button>
+            </div>
+          </form>
+        </main>
       </div>
       <footer>
         <div class="names">
