@@ -63,9 +63,26 @@
   /* border: solid 1px red; */
   display: flex;
 }
-.sobreFilme img {
-  width: 35%;
+
+
+.left-info {
+  height: 40vw;
 }
+
+h3 {
+  color: var(--light-principal-color);
+}
+
+.left-info ul {
+  color: var(--font-color);
+  margin-left: 1.5vw;
+  margin-top: 1.5vw;
+}
+
+.sobreFilme img {
+  height: 70%;
+}
+
 .sobreFilme .resumo {
   /* border: solid 1px yellow; */
   height: 100%;
@@ -84,6 +101,7 @@
 .sobreFilme iframe {
   margin-bottom: 20px;
 }
+
 footer {
   margin: 20px;
   height: 12%;
